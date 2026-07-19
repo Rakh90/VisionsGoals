@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1" />
+<title>Visions Tracking</title>
+<meta name="description" content="Daily goal, behavior, and incident tracking for Visions residential facilities." />
+<meta name="theme-color" content="#05070d" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="Visions" />
+<link rel="manifest" href="manifest.webmanifest" />
+<link rel="icon" href="icons/favicon-32.png" sizes="32x32" type="image/png" />
+<link rel="apple-touch-icon" href="icons/icon-192.png" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header id="app-header">
+  <div class="header-row">
+    <button id="back-btn" class="back-btn hidden" aria-label="Back">&#8592;</button>
+    <div class="brand"><span class="brand-mark"></span>Visions Tracking</div>
+  </div>
+  <div class="breadcrumb-row header-row" style="padding-top:0;">
+    <span class="breadcrumb" id="breadcrumb"></span>
+  </div>
+  <nav class="tabbar" id="tabbar">
+    <button class="tab-btn" data-tab="dashboard">Dashboard</button>
+    <button class="tab-btn" data-tab="calendar">Calendar</button>
+    <button class="tab-btn" data-tab="summary">Summary</button>
+  </nav>
+</header>
+
+<main id="app"></main>
+
+<div id="modal-root"></div>
+<div id="toast-root"></div>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
