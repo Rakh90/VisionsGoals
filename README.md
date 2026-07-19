@@ -15,11 +15,10 @@ app keeps its own independent data.
 
 ## Deploying to GitHub Pages
 
-1. Merge this branch into `main`.
-2. In the repo, go to **Settings → Pages**.
-3. Under **Build and deployment**, set **Source** to `Deploy from a branch`.
-4. Set **Branch** to `main` and folder to `/ (root)`, then **Save**.
-5. GitHub will publish the site at `https://<your-username>.github.io/<repo-name>/`.
+1. In the repo, go to **Settings → Pages**.
+2. Under **Build and deployment**, set **Source** to `Deploy from a branch`.
+3. Set **Branch** to `main` and folder to `/ (root)`, then **Save**.
+4. GitHub will publish the site at `https://<your-username>.github.io/<repo-name>/`.
 
 ## Installing on Android
 
